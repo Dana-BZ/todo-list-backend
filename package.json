@@ -1,0 +1,13 @@
+{
+  "name": "todo-list-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server",
+    "dev": "nodemon ./bin/server"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "nodemon": "^2.0.7"
+  }
+}
