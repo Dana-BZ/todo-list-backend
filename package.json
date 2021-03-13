@@ -2,12 +2,15 @@
   "name": "todo-list-backend",
   "version": "0.0.0",
   "private": true,
+  "main": "./bin/server.js",
   "scripts": {
     "start": "node ./bin/server",
     "dev": "nodemon ./bin/server"
   },
   "dependencies": {
     "express": "~4.16.1",
-    "nodemon": "^2.0.7"
+    "knex": "^0.95.2",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1"
   }
 }

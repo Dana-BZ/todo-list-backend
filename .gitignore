@@ -1,3 +1,6 @@
+# ignore test.http
+test.http
+
 # Logs
 logs
 *.log
