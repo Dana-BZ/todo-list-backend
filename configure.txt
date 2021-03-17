@@ -1,0 +1,7 @@
+CREATE TABLE public.todo
+(
+    id integer NOT NULL DEFAULT nextval('todo_id_seq'::regclass),
+    text text COLLATE pg_catalog."default" NOT NULL,
+    completed boolean NOT NULL,
+    CONSTRAINT todo_pkey PRIMARY KEY (id)
+)
