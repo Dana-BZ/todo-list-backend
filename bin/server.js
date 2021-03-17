@@ -1,5 +1,7 @@
-var app = require('../src/app');
-var http = require('http');
+require('dotenv').config();
+
+const app = require('../src/app');
+const http = require('http');
 
 const port = parseInt(process.env.PORT || '3000');
 app.set('port', port);
